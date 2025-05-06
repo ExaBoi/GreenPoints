@@ -6,24 +6,37 @@
     <title>GreenPoints</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
-\
-<body>
-    <div class="container">
 
-        <div class="login">
-            <h1> Welcome to GreenPoints</h1>
-            <p> This app will track how clean you maintain your enviorment</p>
-            <form> 
-                <input placeholder="Username">
-                <input placeholder="Password">
-                <div class="signbut"><Button>Sign In</Button></div>
-                <div class="logbut"><button>Log In</button></div>
-            </form>
-        <img src="https://selecciones.com.mx/wp-content/uploads/2015/03/ecologia-en-la-oficina.jpg" alt="">
-    </div>
+<body>
+    <div class="main-container">
+        <main>
+            <section>
+                <h1> Welcome to GreenPoints</h1>
+                <p> This app will track how clean you maintain your enviorment</p>
+             </section>
+            
+            <section>
+                <form> 
+                    <div><input placeholder="Username" autocapitalize="none" autocomplete="none" autocorrect="off"></div>
+                    <div><input placeholder="Password" autocapitalize="none" autocomplete="none" autocorrect="off"></div> 
+                    <div><a class="underline" href="/pass_reset/pass_new/" color="white"> Don't Remember? </a></div>
+                    <div class="signbut" ><Button class="signbut">Sign In</Button></div>
+                    <div><Button class="google_signin"> <i class="fa-brands fa-google" style="font-size: 15px;"></i> Sign in with Google</Button></div>
+                </form>
+                
+                <p>
+                    Don't have your own account? <a class="underline" href="/signup/new" color="white"> Make one!</a>
+                </p>
+            </section>
+        </main>
+        
+        
 
 </body>
 </html>
